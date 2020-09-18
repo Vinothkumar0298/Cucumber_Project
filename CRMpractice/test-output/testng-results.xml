@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BDD Test Suite" duration-ms="60575" started-at="2020-09-15T12:58:20Z" finished-at="2020-09-15T12:59:20Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runnerPackage.TestRunner@617faa95]" name="runScenario" class="runnerPackage.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="FREE CRM Test" duration-ms="60575" started-at="2020-09-15T12:58:20Z" finished-at="2020-09-15T12:59:20Z">
+      <class name="runnerPackage.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runnerPackage.TestRunner@617faa95]" name="setUpClass" is-config="true" duration-ms="998" started-at="2020-09-15T18:28:20Z" finished-at="2020-09-15T18:28:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="beforeMethodinit()[pri:0, instance:runnerPackage.TestRunner@617faa95]" name="beforeMethodinit" is-config="true" duration-ms="12965" started-at="2020-09-15T18:28:21Z" finished-at="2020-09-15T18:28:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodinit -->
+        <test-method status="PASS" signature="beforeMethodinit()[pri:0, instance:runnerPackage.TestRunner@617faa95]" name="beforeMethodinit" is-config="true" duration-ms="11761" started-at="2020-09-15T18:28:21Z" finished-at="2020-09-15T18:28:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodinit -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runnerPackage.TestRunner@617faa95]" name="runScenario" duration-ms="47355" started-at="2020-09-15T18:28:32Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-15T18:29:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create contact validation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CRM website validation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runnerPackage.TestRunner@617faa95]" name="runScenario" duration-ms="31763" started-at="2020-09-15T18:28:34Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-15T18:29:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login page validation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["CRM website validation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runnerPackage.TestRunner@617faa95]" name="tearDownClass" is-config="true" duration-ms="389" started-at="2020-09-15T18:29:20Z" finished-at="2020-09-15T18:29:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runnerPackage.TestRunner -->
+    </test> <!-- FREE CRM Test -->
+  </suite> <!-- BDD Test Suite -->
+</testng-results>

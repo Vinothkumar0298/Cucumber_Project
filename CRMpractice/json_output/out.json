@@ -1,0 +1,240 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-18T06:50:27.737Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.StepDefinition.when_user_enter_the_URL()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Login page validation",
+        "description": "",
+        "id": "crm-website-validation;login-page-validation;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1404000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.StepDefinition.user_closes_the_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 31014000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Login page is loaded",
+            "match": {
+              "location": "stepDefinitions.StepDefinition.login_page_is_loaded()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11726000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters the nalini.maaya@gmail.com and SujRam@1893 and logged in",
+            "match": {
+              "arguments": [
+                {
+                  "val": "nalini.maaya@gmail.com",
+                  "offset": 16
+                },
+                {
+                  "val": "SujRam@1893",
+                  "offset": 43
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.user_enters_the_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21392000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Home page is loaded for CRM",
+            "match": {
+              "location": "stepDefinitions.StepDefinition.home_page_is_loaded_for_CRM()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoketest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-18T06:50:28.299Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.StepDefinition.when_user_enter_the_URL()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Create contact validation",
+        "description": "",
+        "id": "crm-website-validation;create-contact-validation",
+        "after": [
+          {
+            "result": {
+              "duration": 1023000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.StepDefinition.user_closes_the_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 29334000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Login page is loaded",
+            "match": {
+              "location": "stepDefinitions.StepDefinition.login_page_is_loaded()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11446000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enters the username and password and clicks on login",
+            "match": {
+              "location": "stepDefinitions.StepDefinition.user_enters_the_username_and_password(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "nalini.maaya@gmail.com",
+                  "SujRam@1893"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23491000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Home page is loaded for CRM",
+            "match": {
+              "location": "stepDefinitions.StepDefinition.home_page_is_loaded_for_CRM()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10847000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User moves to contacts page",
+            "match": {
+              "location": "stepDefinitions.StepDefinition.user_moves_to_contacts_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 68247000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User creates new contacts with the details",
+            "match": {
+              "location": "stepDefinitions.StepDefinition.user_creates_new_contacts_with_the_details(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "firstname",
+                  "Lastname",
+                  "email",
+                  "category",
+                  "text"
+                ]
+              },
+              {
+                "cells": [
+                  "Vinod",
+                  "K",
+                  "peddi@gmail.com",
+                  "2",
+                  "Lead"
+                ]
+              },
+              {
+                "cells": [
+                  "Nalini1",
+                  "Pe",
+                  "peddine@gmail.com",
+                  "4",
+                  "Contact"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Functionaltest"
+          },
+          {
+            "name": "@Smoketest"
+          }
+        ]
+      }
+    ],
+    "name": "CRM website validation",
+    "description": "",
+    "id": "crm-website-validation",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/features/contactvalid.feature",
+    "tags": []
+  }
+]
